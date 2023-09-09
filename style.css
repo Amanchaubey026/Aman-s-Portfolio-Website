@@ -166,3 +166,33 @@ footer .rights-footer {
   padding: 10px;
   margin: 10px 0px;
 }
+@media screen and (max-width: 1500px) {
+  
+  .firstSection{
+    flex-direction: column-reverse;
+  }
+  .box{
+    flex-direction: column;
+  }
+  .secondSection .box{
+    flex-direction: column;
+  }
+  .secondSection .vertical{
+    height: unset;
+  }
+  footer{
+    display: none;
+  }
+  .vertical-title, .vertical-desc{
+    left: 45px;
+    
+  }
+  .secondSection .box{
+    width: 50vw;
+  }
+
+  nav{
+    flex-direction: column;
+  }
+
+}
