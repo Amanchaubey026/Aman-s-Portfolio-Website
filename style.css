@@ -17,13 +17,34 @@ nav {
   align-items: center;
   height: 80px;
 }
-nav ul {
-  display: flex;
-  justify-content: center;
-}
+nav ul {  
+  /* background-color: #333; */
+  list-style-type: none;
+  text-align: center;
+  top : 0px;
+  width : 100% ;
+  margin: 60px 0px;
+  padding: 0 5px;
+  overflow: hidden;
+
+
+  }
+/* nav ul {  
+  background-color: #333;
+  list-style-type: none;
+  text-align: center;
+  top : 0px;
+  width : 100% ;
+  margin: 60px 0px;
+  padding: 0 5px;
+  overflow: hidden;
+  } */
 nav ul li {
   list-style: none;
   margin: 0 23px;
+}
+#nav li { 
+  display: inline;
 }
 nav ul li a {
   text-decoration: none;
@@ -257,4 +278,22 @@ footer .h3{
   position: relative;
   top: 49px;
 }
+#wrapper {
+  position:relative;
+}
+
+nav ul {  
+  /* background-color: #333; */
+  list-style-type: none;
+  text-align: center;
+  top : 0px;
+  width : 100% ;
+  margin: 60px 0px;
+  padding: 0 5px;
+  overflow: hidden;
+  position:fixed;
+  top:0;
+  left:0;
+
+  }
 }
