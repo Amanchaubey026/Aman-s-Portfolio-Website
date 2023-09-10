@@ -106,7 +106,7 @@ main hr {
   height: 93px;
   width: 1px;
   background-color: white;
-  margin: 0 100px;
+  margin: 0 6vw;
 }
 .image-top {
   width: 80px;
@@ -166,6 +166,7 @@ footer .rights-footer {
   padding: 10px;
   margin: 10px 0px;
 }
+
 @media screen and (max-width: 1500px) {
   
   .firstSection{
@@ -180,8 +181,10 @@ footer .rights-footer {
   .secondSection .vertical{
     height: unset;
   }
-  footer{
-    display: none;
+  .footer{
+    /* display: none; */
+    position: relative;
+    top: 110vh;
   }
   .vertical-title, .vertical-desc{
     left: 45px;
@@ -194,5 +197,64 @@ footer .rights-footer {
   nav{
     flex-direction: column;
   }
-
+  .leftSection{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .rightSection{
+      width: 350px !important;
+  }
+  .secondSection{
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+    align-items: center;
+  }
+  
+  
+.secondSection h1 {
+    font-size: 3rem;
+    position: relative;
+    top: 40px;
+    left: -28px;
+  
+}
+.vertical>.image-top{
+    width: 80px;
+    position: relative;
+    top: 121px;
+    left: -40px;
+}
+.vertical>.image-top2{
+    width:  46px;
+    position: relative;
+    top: 121px;
+    left: -21px;
+}
+.vertical>.image-top3{
+    width: 29px;
+    position: relative;
+    top: 121px;
+    left: -14px;
+}
+.text-gray {
+  display: none;
+}
+#last-div{
+  height: 156px !important;
+}
+footer .rights-footer{
+  position: relative;
+  top: 110vh;
+}
+footer .h3{
+  position: relative;
+  top: 49px;
+}
 }
