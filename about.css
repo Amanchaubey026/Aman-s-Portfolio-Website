@@ -186,7 +186,7 @@ footer .rights-footer {
   }
 
   .leftSection{
-    width: 100% !important;
+    width: 70% !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,3 +222,10 @@ nav ul {
 
   }
 }
+@media screen and (max-width: 800px) {
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+  }
+  }

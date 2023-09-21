@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aman-Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="project.css" />
   </head>
   <body>
     <header>
@@ -30,33 +30,9 @@
       </nav>
     </header>
     <main>
-      <section class="firstSection">
-        <div class="leftSection">
-          <div>Hi, my name is <span class="purple">Aman</span></div>
-          <div>
-            and I am a passionate
-            <!-- <div>Web Developer.</div> -->
-            <span id="element"></span>
-            <div class="button">
-              <button class="btn">
-                <a href="./resume.pdf">Download resume</a>
-              </button>
-              <button class="btn">
-                <a href="https://github.com/Amanchaubey026">Visit Github</a>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="rightSection">
-          <img src="bg.png" alt="Developer's Image" />
-        </div>
-      </section>
-
-      <hr />
       <section class="secondSection">
-        <span class="text-gray">Projects I have done so far: </span>
-        <h1>Projects</h1>
-
+        <div class="project-done"><span id="element"></span></div>
+        
         <div class="box">
           <div class="vertical">
             <img class="image-top" src="developer.png" alt="" />
@@ -167,9 +143,10 @@
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
       var typed = new Typed("#element", {
-        strings: ["<i>Web Designer</i>", "<i>Web Develper...</i>"],
+        strings: ["<h1>Projects...</h1>"],
         typeSpeed: 50,
       });
     </script>
   </body>
 </html>
+
